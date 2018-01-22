@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>帝帆美</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	</head>
+	<body>
+		<div class="blogPage">
+			<ul id="blogDom" class="blogs">
+				<!--<li>
+					<a href="javascript:void(0);">
+						<img width="100%" src="img/blog_img1.jpg"/>
+						<div class="blogsInfo">
+							<h5 class="title">Article title goes here to introduce the content</h5>
+							<p>Clarity Leads to Power. When we're clear, we're more effective. Our clarity reduces our mistakes and enables us to enlist the help of others. We are more powerful when we are clear, and we are weaker when we are confused. You Can't Learn Less. We can only add to our knowledge. We don't have to give some of it up in exchange for new knowledge. Our ability to absorb and retain knowledge may just be unlimited. </p>
+						</div>
+						<span class="editBtn">Edit</span>
+					</a>
+				</li>-->
+			</ul>
+			<div id="addNew" class="addBtn">
+				<span>+</span> Add New
+			</div>
+			<div class="popup">
+				<div class="popupCon">
+					<div class="popupBox">
+						<h6 class="popupTitle">Add Article</h6>
+						<form >
+							<dl class="inputList">
+								<dt>Image</dt>
+								<dd>
+									<input class="textBox imgUrlText" type="text" class="imgInput" value="" />
+								</dd>
+								<dt>Title</dt>
+								<dd>
+									<input class="textBox titleText" type="text" class="titleInput" value="" />
+								</dd>
+								<dt>Content</dt>
+								<dd>
+									<textarea class="textBox contentText" name="" rows="" cols=""></textarea>
+								</dd>
+							</dl>
+							<div class="popupBtn">
+								<span  class="saveBtn">Save</span>
+								<span  class="cancelBtn">Cancel</span>								
+							</div>
+							
+						</form>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		<script src="js/qi.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			blog.init()
+		</script>
+	</body>
+</html>
