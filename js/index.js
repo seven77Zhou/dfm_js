@@ -14,7 +14,6 @@ var blog = {
 		for(var i = 0; i < blogArticle.length; i++){
 			this.bindData(i,blogArticle[i].imgUrl,blogArticle[i].title,blogArticle[i].content)
 		}
-		//$Q.$Class('blogs')[0].innerHTML = this.dataModal.listDom;
 	},
 	bindData:function(index,img,title,content){
 			var newNode = null;
@@ -87,24 +86,6 @@ var blog = {
 					}
 				}
 			}
-//			$Q.$Class('editBtn')[i].onclick = function(){
-//				//获取当前点击的list的index值
-//				index = this.parentNode.parentNode.getAttribute('data-index');
-//				//保存当前index值
-//				_this.dataModal.popupType = index;
-//				//改标题
-//				$Q.$Class('popupTitle')[0].innerHTML = 'Edit Article';
-//				//设置默认value值
-//				$Q.$Class('imgUrlText')[0].value = blogArticle[index].imgUrl;
-//				$Q.$Class('titleText')[0].value = blogArticle[index].title;
-//				$Q.$Class('contentText')[0].value = blogArticle[index].content;
-//				//判断popup是否隐藏
-//				if(!$Q.$hasClass($Q.$Class('popup')[0],'show')){
-//					//添加类，显示弹窗
-//					$Q.$addClass($Q.$Class('popup')[0],'show')					
-//				}
-//				
-//			}
 		}	
 	},
 	cancelPopup:function(){
